@@ -1,0 +1,12 @@
+diff --git a/hello.c b/hello.c
+index 789920b..d79a4f2 100644
+--- a/hello.c
++++ b/hello.c
+@@ -3,6 +3,7 @@
+ int main()
+ {
+   printf("Hello, Guys\n");
++  printf("I am shiv!\n");
+ 
+   return 0;
+ }

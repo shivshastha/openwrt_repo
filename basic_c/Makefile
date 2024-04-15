@@ -6,7 +6,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/shivshastha/My_source.git
-PKG_SOURCE_VERSION:=9226868002bdd710a2dc86d03cb56ac327cf6d45
+PKG_SOURCE_VERSION:=f10a60d908bf08d5f1fc10947b7325fb71a08d52
 
 PKG_MAINTAINER:=Shiv Shastha <shivshastha.p@zilogic.com>
 

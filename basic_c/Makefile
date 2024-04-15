@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=basic-c
-PKG_VERSION:=1.0
+PKG_VERSION:=1.0.1
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
@@ -13,13 +13,13 @@ PKG_MAINTAINER:=Shiv Shastha <shivshastha.p@zilogic.com>
 include $(INCLUDE_DIR)/package.mk
 
 define Package/basic-c
-	SECTION:=Basic
-	CATEGORY:=basic
-	TITLE:=Basic c program!
+  SECTION:=basic
+  CATEGORY:=Basic
+  TITLE:=Basic-c-program!
 endef
 
 define Package/basic-c/description
-	A Basic c program.
+  A Basic c program.
 endef
 
 define Build/Compile
@@ -27,8 +27,8 @@ define Build/Compile
 endef
 
 define Package/basic_c/install
-	$(INSTALL_DIR) $(1)/usr/bin
-	$(INSTALL_BIN) $(PKG_BUILD_DIR)/hello $(1)/usr/bin
+	$(INSTALL_DIR) $(1)/usr/shiv
+	$(INSTALL_BIN) $(PKG_BUILD_DIR)/hello $(1)/usr/shiv
 endef
 
 $(eval $(call BuildPackage, basic-c))

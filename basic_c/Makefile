@@ -6,10 +6,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/shivshastha/My_source.git
-PKG_SOURCE_VERSION:=252af3ac0c6c36304aadc31cddd6cb28cabaae00
-PKG_SOURCE_SUBDIR:=basic-c-$(PKG_SOURCE_VERSION)
-PKG_SOURCE:=$(PKG_SOURCE_SUBDIR).tar.xz
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_SOURCE_SUBDIR)
+PKG_SOURCE_VERSION:=9226868002bdd710a2dc86d03cb56ac327cf6d45
 
 PKG_MAINTAINER:=Shiv Shastha <shivshastha.p@zilogic.com>
 
@@ -22,7 +19,7 @@ define Package/basic-c
 endef
 
 define Package/basic-c/description
-	A Basic "c program!" -application.
+	A Basic c program.
 endef
 
 define Build/Compile
